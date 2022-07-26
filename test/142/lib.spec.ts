@@ -14,7 +14,7 @@ suite('Testing ...', () => {
   //
   // });
 
-  suite('hasCycle ', () => {
+  suite('142', () => {
     test('case 1', async () => {
       assert.strictEqual(detectCycle(null), null);
       assert.strictEqual(detectCycle(createLinkedList([1], -1)), null);

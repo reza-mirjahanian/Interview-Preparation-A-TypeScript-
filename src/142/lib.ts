@@ -1,5 +1,5 @@
 import ListNode from './types';
-// 141. Linked List Cycle
+// 142. Linked List Cycle 2
 export default function detectCycle(head: ListNode | null): ListNode | null {
   let slowPtr = head;
   let fastPtr = head;
