@@ -2,8 +2,8 @@ import {
   expect,
 } from 'chai';
 
-import ListNode from '../../src/104/types';
-import hasCycle from '../../src/104/lib';
+import ListNode from '../../src/141/types';
+import hasCycle from '../../src/141/lib';
 
 suite('Testing ...', () => {
   // suiteSetup(async () => {
