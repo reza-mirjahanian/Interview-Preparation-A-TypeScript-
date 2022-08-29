@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import ListNode, { traverse } from '../../src/2/types';
 import func from '../../src/2/lib';
 
-suite.only('Testing 2 ...', () => {
+suite('Testing 2 ...', () => {
   test('case 1', async () => {
     const head0 = new ListNode(9);
     const head1 = new ListNode(2);
@@ -25,6 +25,6 @@ suite.only('Testing 2 ...', () => {
     // head6.next = head7;
 
     // console.log(traverse(func(head0, head4)));
-    expect(traverse(func(head0, head4))).to.deep.equal([3,8,2,1]);
+    expect(traverse(func(head0, head4))).to.deep.equal([3, 8, 2, 1]);
   });
 });
