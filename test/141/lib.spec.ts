@@ -1,6 +1,4 @@
-import {
-  expect,
-} from 'chai';
+import { expect } from 'chai';
 
 import ListNode from '../../src/141/types';
 import hasCycle from '../../src/141/lib';

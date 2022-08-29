@@ -2,7 +2,9 @@ import ListNode, { traverse } from './types';
 // 82. Remove Duplicates from Sorted List II
 
 // Approach 1: Sentinel Head + Predecessor
-export default function deleteDuplicates(head: ListNode | null): ListNode | null {
+export default function deleteDuplicates(
+  head: ListNode | null
+): ListNode | null {
   if (!head) return head;
   let tmpNode = new ListNode(0);
   tmpNode.next = head;
@@ -22,7 +24,6 @@ export default function deleteDuplicates(head: ListNode | null): ListNode | null
     }
 
     cur = cur.next;
-
   }
 
   return tmpNode.next;
