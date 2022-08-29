@@ -24,7 +24,7 @@ suite.only('Testing 2 ...', () => {
     head5.next = head6;
     // head6.next = head7;
 
-    console.log(traverse(func(head0, head4)));
-    // expect(traverse(deleteDuplicates(head0))).to.deep.equal([2,4]);
+    // console.log(traverse(func(head0, head4)));
+    expect(traverse(func(head0, head4))).to.deep.equal([3,8,2,1]);
   });
 });
