@@ -10,11 +10,10 @@ export default function func(s: string): number {
       table.set(char, 1);
     }
   }
-  for(let i = 0; i< s.length;i++){
-    if(table.get(s[i]) === 1){
+  for (let i = 0; i < s.length; i++) {
+    if (table.get(s[i]) === 1) {
       return i;
     }
-
   }
 
   return pos;

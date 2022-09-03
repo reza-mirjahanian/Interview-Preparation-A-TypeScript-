@@ -22,7 +22,6 @@ suite('Testing 82 ...', () => {
     head5.next = head6;
     head6.next = head7;
 
-    console.log(traverse(deleteDuplicates(head0)));
     expect(traverse(deleteDuplicates(head0))).to.deep.equal([2, 4]);
   });
 });
