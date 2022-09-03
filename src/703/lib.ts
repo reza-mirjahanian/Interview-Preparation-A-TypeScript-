@@ -14,6 +14,7 @@ export default class KthLargest {
   }
 
   add(val: number): number {
+    // console.log(this.nums)
     let pos = this.nums.length;
 
     for (let i = 0; i < pos; i++) {

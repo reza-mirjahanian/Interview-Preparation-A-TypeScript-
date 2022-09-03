@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import KthLargest from '../../src/703/lib2';
+import KthLargest from '../../src/703/lib';
 
 suite('Testing 703 ...', () => {
   test.only('case 1', async () => {
