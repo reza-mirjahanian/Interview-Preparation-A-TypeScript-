@@ -1,7 +1,6 @@
 import ListNode from './types';
 // 206. Reverse Linked List
 
-
 export default function func(head: ListNode | null): ListNode | null {
   // if(!head){
   //   return  null;
@@ -20,17 +19,15 @@ export default function func(head: ListNode | null): ListNode | null {
   // }
   //
   // return  reverseHead;
- //////////////////////////////////////////////
-  let pointer =null;
-  let c = head ;
+  //////////////////////////////////////////////
+  let pointer = null;
+  let c = head;
 
-
-  while(c){
+  while (c) {
     let next = c.next;
-    c.next =pointer;  //reverse link and break link between c and n
-    pointer=c;  // move p
-    c=next;  // move c
-
+    c.next = pointer; //reverse link and break link between c and n
+    pointer = c; // move p
+    c = next; // move c
   }
   return pointer;
   ///////////////////////////////////////////////
