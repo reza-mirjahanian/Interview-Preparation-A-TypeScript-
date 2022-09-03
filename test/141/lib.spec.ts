@@ -11,7 +11,7 @@ suite('Testing ...', () => {
   //
   // });
 
-  suite('hasCycle ', () => {
+  suite('141 hasCycle ', () => {
     test('case 1', async () => {
       const head0 = new ListNode(3);
       const head1 = new ListNode(2);
