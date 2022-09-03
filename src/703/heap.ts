@@ -92,9 +92,3 @@ export default class MinHeap {
     }
 }
 
-// const maxHeap = new MinHeap<number>();
-// maxHeap.add(4);
-// maxHeap.add(5);
-// maxHeap.add(8);
-// maxHeap.add(2);
-// console.log(maxHeap.toString());
