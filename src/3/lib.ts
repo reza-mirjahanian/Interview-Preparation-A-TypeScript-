@@ -1,5 +1,5 @@
 // 3. Longest Substring Without Repeating Characters
-
+// https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples
 export default function func(s: string): number {
   const table = new Map();
   let max = 0,
