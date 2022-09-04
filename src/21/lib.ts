@@ -17,7 +17,7 @@ export default function mergeTwoLists(
   // }
   ////////////////////////////////////////////////////////////
   let list = new ListNode(),
-      head = list;
+    head = list;
 
   while (list1 && list2) {
     if (list1.val <= list2.val) {
