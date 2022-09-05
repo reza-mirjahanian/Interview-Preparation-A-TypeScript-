@@ -1,15 +1,9 @@
 import { expect } from 'chai';
 
-import func from '../../src/22/lib';
+import func from '../../src/209/lib';
 
-suite('Testing 22 ...', () => {
+suite('Testing 209 ...', () => {
   test('case 1', async () => {
-    expect(func(3)).to.deep.equal([
-      '((()))',
-      '(()())',
-      '(())()',
-      '()(())',
-      '()()()',
-    ]);
+    expect(func(7, [2, 3, 1, 2, 4, 3])).to.deep.equal(2);
   });
 });
