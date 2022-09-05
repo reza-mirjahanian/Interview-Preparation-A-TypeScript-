@@ -4,7 +4,7 @@ export default function func(nums: number[]): number[][] {
   const subset: number[] = [];
   const _calcSubset = (i: number): void => {
     if (i >= nums.length) {
-      subsets.push([...subset])
+      subsets.push([...subset]);
       return;
     }
     subset.push(nums[i]); // include current number
