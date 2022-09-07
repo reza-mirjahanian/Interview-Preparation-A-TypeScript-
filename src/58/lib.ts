@@ -1,13 +1,14 @@
-// 58. Length of Last Word
-export default function lengthOfLastWord(s: string): number {
-  let total = 0;
-  let lastIndex = s.length - 1;
-  while (s[lastIndex] === ' ') {
-    lastIndex--;
+// 66. Plus One
+export default function plusOne(digits: number[]): number[] {
+  for (let i = digits.length - 1; i >= 0; i--) {
+    digits[i]++;
+    if (digits[i] <= 9) {
+      return digits;
+    } else {
+      digits[i] = 0;
+    }
   }
-  while (s[lastIndex] !== ' ' && lastIndex >= 0) {
-    lastIndex--;
-    total++;
-  }
-  return total;
+
+  digits.unshift(1);
+  return digits;
 }
